@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+
+.kaecio{
+    border-radius: 50%;
+    text-align: center;
+}
