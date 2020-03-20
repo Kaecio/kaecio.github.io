@@ -18,8 +18,10 @@ h1{
     color: rgb(19, 41, 73);
     font-style: italic;
     font-weight: bold;
+    font-size: 50px;
 }
-.paragraph1{
+.paragraph.paragraph1{
+    margin-top: -45px;
     text-align: center;
 }
 .paragraph2{
@@ -37,6 +39,14 @@ h1{
     height: 300px;
     text-align: center;
     background-color: rgb(243, 227, 0);
+    position: relative;
+    left: 50%;
+    top: 100px;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    -o-transform:translate(-50%, -50%);
 }
 #foto{
     text-align: center;
@@ -47,16 +57,22 @@ h1{
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+
 }
-/*
+
 #secao1{
-float: left;
+    width: 850px;
+    float: left;
 }
 
 #secao2{
+    width: 500px;
     float: right;
 }
-*/
+#secao3{
+    width: 100%;
+    float: left;
+}
 
 #nacionalidade{
     text-transform: uppercase;
@@ -113,7 +129,15 @@ ol{
 .element.element6{
     font-size: 14px;
 }
+#btn{
+    width: auto;
+    height: auto;
+    float: left;
+}
 .button{
+    width: 200px;
+    height: 400px;
+    font-size: 10px;
     margin-top: 30px;
     padding: 20px;
     background-color: rgb(4, 0, 255);
@@ -126,4 +150,5 @@ ol{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     border: 1px 2px 2px black solid;
+    text-align: center;
 }
