@@ -57,6 +57,13 @@ float: left;
     float: right;
 }
 */
+
+#nacionalidade{
+    text-transform: uppercase;
+}
+#cidade{
+    text-transform: uppercase;
+}
 .container.strong{
     text-transform: uppercase;
 }
@@ -78,26 +85,45 @@ p{
     margin-top: 30px;
     margin-left: 15px;
 }
+
+ol{
+    margin-top: 20px;
+    margin-left:30px ;
+}
 .element{
-    color: darkorchid;
+    color: rgb(32, 32, 32);
     margin-left: 30px;
     margin-top: 2px;
 }
 .element.element1{
     font-size: 20px;
 }
-element.element2{
-    font-size: 100px;
+.element.element2{
+    font-size: 19px;
 }
-element.element3{
+.element.element3{
+    font-size: 17px;
+}
+.element.element4{
     font-size: 16px;
 }
-element.element4{
+.element.element5{
+    font-size: 15px;
+}
+.element.element6{
     font-size: 14px;
 }
-element.element5{
-    font-size: 12px;
-}
-element.element6{
-    font-size: 10px;
+.button{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(4, 0, 255);
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 1px 2px 2px black solid;
 }
