@@ -168,7 +168,8 @@ h3{
 }
 #letra{
     color: darkgreen;
-    text-transform: uppercase;
+   text-transform: uppercase;
+   margin-left: -5px;
 }
 
 .element{
