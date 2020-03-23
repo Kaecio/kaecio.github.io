@@ -90,14 +90,19 @@ h3{
 }
 
 #box-figure{
-    width: 500px;
-    height: 500px;
+    width: 41%;
+    height: 442px;
     float: right;
 }
 #parte1{
     text-align: center;
     margin-top: 35px;
     margin-left: 200px;
+    font-weight: 900;
+
+}
+#parte2{
+    font-weight: 900;
 }
 .paragraph1{
     color: rgb(75, 75, 75);
@@ -112,7 +117,10 @@ h3{
 
 .paragraph.paragraph2{
     margin-left: 10px;
+    margin-top: 15px;
     text-align: center;
+    float: right;
+
 }
 
 .paragraph.paragraph3{
@@ -122,6 +130,11 @@ h3{
     text-align: center;
     text-transform: uppercase;
     color: rgba(255, 0, 0, 0.8);
+}
+#box-figure{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(75, 75, 75);
 }
 .foto{
     margin-right: 40px;
