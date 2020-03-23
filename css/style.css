@@ -6,12 +6,13 @@
 body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background: rgb(241, 241, 241);
 }
 
 header{
     background-color: #ffffff;
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: fixed;
 }
 
@@ -57,8 +58,11 @@ main{
     padding-top: 100px;
     width: 1200px;
     height: 1400px;
-    /*background-color: #6e14ff;*/
     margin: auto;
+}
+.container{
+    width:100%;
+    height: 700px;  
 }
 h1{
     
@@ -73,41 +77,69 @@ h1{
 h1 span{
     color: #ff022c;
 }
+h2{
+    margin-left: 20px;
+}
 h2 span{
     color: #ff022c;
 
 }
-.paragraph.paragraph1{
-    margin-top: 390px;
-    margin-left: 550px;
+
+h3{
+    margin-top: 20px;
+}
+
+#box-figure{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+#parte1{
     text-align: center;
+    margin-top: 30px;
+    margin-left: 200px;
 }
-.paragraph2{
+.paragraph1{
     color: rgb(75, 75, 75);
-    text-align: justify;
+    margin-top: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
-.paragraph2 span{
+.paragraph1 span{
     font-family: Arial,'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
+.paragraph.paragraph2{
+    margin-left: 10px;
+    text-align: center;
+}
 
-.foto{
+.paragraph.paragraph3{
     margin-top: 20px;
-    border: 1px solid #0000006e;
+}
+.paragraph.paragraph4{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 0, 0, 0.8);
+}
+.foto{
+    margin-right: 40px;
+    margin-top: 20px;
+    border: 1px solid rgb(171, 211, 212)
     box-shadow:  2px 2px 10px;
     width: 400px;
     height:350px;
     border-radius:50%;
     float: right;
-   
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(171, 211, 212);
 }
 
 #secao1{
-    width: 850px;
-    float: left;
-    margin-top: 50px;
-    padding: 20px 20px;
+
+    background-color: dodgerblue;
 }
 
 #secao2{
@@ -116,6 +148,8 @@ h2 span{
     margin-top: 50px;
     padding: 20px 20px;
 }
+
+
 #secao3{
     width: 100%;
     float: left;
@@ -136,10 +170,7 @@ h2 span{
     color: darkgreen;
     text-transform: uppercase;
 }
-h2{￼￼
-    09:42 / 14:58￼HD￼￼￼
-    margin-left:30px ;
-}
+
 .element{
     color: rgb(32, 32, 32);
     margin-left: 30px;
@@ -147,18 +178,21 @@ h2{￼￼
 }
 .element.element1{
     font-size: 20px;
+    box-shadow: 5px solid black;
 }
 .element.element2{
     font-size: 19px;
 }
 .element.element3{
     font-size: 17px;
+    box-shadow: 1px solid black;
 }
 .element.element4{
     font-size: 16px;
 }
 .element.element5{
     font-size: 15px;
+    box-shadow: 1px solid black;
 }
 .element.element6{
     font-size: 14px;
@@ -179,6 +213,8 @@ footer img{
     margin-top: 120px;
     width: 50px;
 }
+
+
 
 footer p{
     text-align: center;
