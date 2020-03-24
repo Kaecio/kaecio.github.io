@@ -90,9 +90,9 @@ h3{
     margin-top: 20px;
 }
 
-#box-figure{
-    width: 500px;
-    height: 50px;
+figure{
+    width: 41%;
+    height: 240px;
     float: right;
 }
 #parte1{
